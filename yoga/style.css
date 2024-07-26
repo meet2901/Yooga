@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgba(249, 157, 252, 0.725);
+}
+nav{
+    
+    /* margin: 0px 95px; */
+    display: flex;
+    
+    background-color: rgba(249, 157, 252, 0.825);
+    /* opacity: 80%; */
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+    align-items: center;
+}
+nav div{
+    margin: 0 116px;
+}
+
+.leftnav{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+.leftnav span{
+    color: black;
+}
+.rightnav ul{
+    list-style: none;
+    display: flex;
+    
+}
+.rightnav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.rightnav ul li{
+    margin: 0 20px;
+    
+}
+
+.one{
+    display: flex;
+    /* width: 70%; */
+    /* margin: 0 -35px; */
+    justify-content: center;
+    align-items: center;
+}
+.one>div{
+    width: 35%;
+    /* margin: 0 30px; */
+}
+
+.left{
+    display:flex;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+.left div{
+    margin: 10px 0;
+}
+.left .title-one{
+    font-size: 3rem;
+    font-weight:bold;
+}
+.left .text-one{
+    font-size: 0.8rem;
+}
+.left button{
+    width:20%;
+    height: 40px;
+    /* border-radius: 5px; */
+    border: 0px solid black;
+    background-color: black;
+    color: wheat;
+}
+
+.right{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+    width: 80%;
+    position: relative;
+    left: 50px;
+}
+
+.two{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 50px; */
+}
+.two div{
+    width: 40%;
+    margin: 1px -44px;
+}
+.leftcontent{
+    display: flex;
+justify-content: center;
+}
+.leftcontent img
+{
+width: 80%;
+display: flex;
+justify-content: center;
+
+}
+.rightcontent div{
+    margin: 10px 0;
+}
+.rightcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.rightcontent .headtwo{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.rightcontent button{
+    background-color: black;   
+    border: 0px solid black;
+    color:bisque ;
+    height: 40px;
+    width: 46%;
+}
