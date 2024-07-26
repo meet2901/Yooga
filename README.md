@@ -1,1 +1,1 @@
-# Yooga
+# /yoga
